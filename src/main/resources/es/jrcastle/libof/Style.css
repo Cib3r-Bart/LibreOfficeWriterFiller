@@ -1,0 +1,21 @@
+#root{
+    -fx-background-color: linear-gradient(to bottom right,   #5d6d7e,  #34495e, #2e4053);
+}
+
+#progressBar{
+    -fx-accent: #2ecc71;
+}
+
+.button{
+        -fx-font-weight: bold;
+        -fx-font-size: 18px;
+        -fx-text-fill:#e5e8e8;
+        -fx-background-color: transparent;
+}
+
+.button:hover{
+    -fx-font-weight: bold;
+    -fx-background-color:white;
+    -fx-text-fill: #154360;
+    -fx-effect:dropshadow(gaussian ,#515a5a , 10 , 0.5, 2 , 5 );
+}
